@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+area {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    align-items: center;
+}
+
+.logo {
+    font-size: 30px;
+    color: rgb(240, 173, 49);
+    font-style: italic;
+    font-weight: bold;
+}
+
+header {
+    /* background-color: black; */
+    /* width: 100%;
+    height: 100vh; */
+}
+
+nav ul {
+    display: flex;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 15px;
+
+}
+
+nav ul li a {
+    list-style: none;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+    /* color: white; */
+}
+
+.btn-style {
+    background-color: rgb(211, 158, 61);
+    padding: 10px 20px;
+    border-radius: 15px;
+    color: white;
+}
+
+.navbar {
+    color: white;
+    font-size: 30px;
+    display: none;
+}
+
+/* hero */
+
+.hero {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-text {
+    width: 50%;
+    padding: 20px;
+
+}
+
+.hero-img {
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 80px;
+
+}
+
+.btn-normal {
+    padding: 10px 15px;
+    border-radius: 20px;
+    margin-left: 10px;
+
+}
+
+.count {
+    background-color: gray;
+    opacity: 60%;
+    padding: 20px 20px;
+    width: 60px;
+    border-radius: 10px;
+    position: relative;
+    top: -400px;
+    left: 300px;
+    color: white;
+    font-weight: bold;
+
+}
+
+.round {
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: brown;
+}
+
+.text-span {
+    font-family: "Satisfy", "cursive";
+}
+
+/* habits */
+
+.habits {
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 20px;
+    width: 600px;
+    text-align: center;
+
+}
+
+.text-colour {
+    color: rgb(124, 122, 122);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.habits h1 {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.habits-area {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 1200px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.habits-contain {
+    margin: 0 auto;
+    text-align: center;
+    width: 250px;
+
+}
+
+.habits-contain img {
+    border-radius: 50%;
+
+}
+
+/* runing area */
+
+.runing-area {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: rgb(65, 63, 63);
+    padding: 10px;
+    border-radius: 15px;
+
+}
+
+.run-conrtainer {
+    display: flex;
+    align-items: center;
+    line-height: 25px;
+    justify-content: center;
+}
+
+.run-contain {
+    width: 45%;
+}
+
+.run-img {
+    width: 45%;
+}
+
+.run-img img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.btn-styles {
+    font-weight: 700;
+    background-color: rgb(211, 158, 61);
+    padding: 10px 25px;
+    border-radius: 15px;
+    color: white;
+    border: none;
+
+}
+
+.run-contain h1 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+}
+
+.trainer-area {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.trainer-container {
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 20px;
+    width: 600px;
+    text-align: center;
+}
+
+.trainer-container h1 {
+    font-weight: bold;
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.trainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.trainer-details {
+    height: 300px;
+    width: 400px;
+    text-align: center;
+    /* column-span: 1/span 3; */
+}
+
+
+.trainer-details img {
+    width: 100%;
+    border-radius: 10px;
+    position: relative;
+
+}
+
+/* .trainer-text{
+    position:  absolute;
+    margin-right: 20px;
+     z-index: 1;  
+    
+         
+ } */
+
+
+
+/* footer */
+
+footer {
+    margin: 200px 10px;
+}
+
+.footer-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 1200px;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.fitness{
+  text-align: center;
+  margin-top: 20px;
+}

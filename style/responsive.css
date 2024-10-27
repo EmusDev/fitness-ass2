@@ -1,0 +1,114 @@
+
+@media screen and (max-width:576px) {
+
+    .hero{
+        display: flex;
+        flex-direction: column; 
+        /* margin: 0 auto; */
+        width: 400px;
+        font-family: Arial, Helvetica, sans-serif;
+      
+    }
+
+    .hero-text{
+        width: 100%;  
+        padding: 10px;         
+    }
+
+    .count {
+        background-color: gray;
+        opacity: 60%;
+        padding: 20px 20px;
+        width: 60px;
+        border-radius: 10px;
+        position: relative;
+        top: -300px;
+        left: 100px;
+        color: white;
+        font-weight: bold;
+        
+    }
+
+    .hero-img img{
+        width: 100%;    
+        padding: 20px;
+         
+    }
+
+    .trainer {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        /* grid-template-rows: repeat(2, 1fr); */
+        gap: 40px;
+        margin-top: 30px;  
+        padding: 20px;
+    
+    }
+
+    .trainer-container {
+        width: 350px;
+    }
+    .hero-img{
+        margin-top: 20px;
+        width: 200px;
+    }
+
+     
+
+    nav ul li{
+         display: none;    
+    }
+
+    .navbar{
+        color: white;
+        font-size: 30px;
+        display: block;
+    }
+
+    .habits-area {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);    
+        font-family: Arial, Helvetica, sans-serif;
+        width: 400px;       
+    }
+    .habits{
+        width: 400px;
+    }
+    .habits-container{
+        align-items: center;
+        margin: 10px 20px;
+        padding: 20px;
+    }
+    .runing-area{
+        width: 400px;        
+        /* margin: 0 auto; */
+        /* background-color: rgb(65, 63, 63); */
+        padding: 10px;
+        border-radius: 10px;
+    
+    }
+
+    .trainer{
+
+    }
+   
+    .run-conrtainer{   
+        /* margin: 10px 0;  */
+        /* width: 450px;    */
+        flex-direction: column-reverse;
+        flex-direction: column;  
+               
+    }
+
+    .footer-section {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+        margin: 0 auto;
+        gap: 20px;
+    }
+    
+
+
+     
+}
